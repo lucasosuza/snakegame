@@ -1,14 +1,43 @@
+h1 {
+    font-family: fantasy;
+    font-size: 4em;
+}
+
+legend {
+    font-family: monospace;
+    font-size: 2em;
+    color: green
+}
+
+header {
+    margin: 20px auto;
+    text-align: center;
+}
+
+.stage {
+    display: block;
+    margin: 5px auto;
+    text-align: center;
+}
+
+.stage button {
+    padding: 10px;
+    border-radius: 5px;
+}
+
 .grid {
-    width: 200px;
-    height: 200px;
+    width: 420px;
+    height: 420px;
     display: flex;
     flex-wrap: wrap;
     border-style: solid;
+    margin: 20px auto;
 }
 
 .grid div {
-    width: 20px;
-    height: 20px;
+    width: 40px;
+    height: 40px;
+    border: 1px dotted gray;
 }
 
 .snake {

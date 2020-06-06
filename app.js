@@ -9,7 +9,7 @@ document.addEventListener('DOMContentLoaded', function() {
         let direction = 1
 
         let appleIndex = 5
-        let interval = 10
+        let interval = 100
         let intervalTime = 0
         let speed = 0.9
 
