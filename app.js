@@ -9,13 +9,13 @@ document.addEventListener('DOMContentLoaded', function() {
         let direction = 1
 
         let appleIndex = 5
-        let interval = 100
+        let interval = 1000
         let intervalTime = 0
         let speed = 0.9
 
         let score = 0
 
-        let width = 10
+        let width = 20
 
         const startGame = () => {
             // clear grid
@@ -25,7 +25,7 @@ document.addEventListener('DOMContentLoaded', function() {
             // reset controllers
             score = 0
             scoreDisplay.innerText = score
-            interval = 100
+            interval = 400
             currentSnake = [2, 1, 0]
             currentIndex = 0
 
